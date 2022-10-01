@@ -4,9 +4,9 @@ Module 5 Challenge
 
 ## Overview of the Analysis
 
-The purpose of this project is to create a summary DataFrame of the ride-sharing data by city type, then create a multiple-line graph that shows the total weekly fares for each city type.  The results can then be used to see what the data shows for ride shares by city type and how the differences can aid in the decision-making process.  The analysis follows the [Challenge Instructions ]()[Challenge Instructions](Resources/InstructionsChalengeModule_5-PyBer-with-Matplotlib.pdf)  saved in a PDF and used the [Starter Code in PDF file](Resources/StarterCodePDFChalengeModule_5-PyBer-with-Matplotlib.pdf) saved in PDF for reference.  The DataFrame used in the analysis combined data from [city_data.csv](Resources/city_data.csv) and [ride_data.csv](Resources/ride_data.csv).  When an example of the results was shown in either the Challenge Instructions or Starter Code the code used in this analysis was written to mirror the results given.  A DataFrame called pyber_data_df was created merging the csv files above.  Below is a png of DataFrame.  Though the image itself only contains one piece of useful data (2375 rows of data) the DataFrame itself contains useful information used in this analysis.
+The purpose of this project is to create a summary DataFrame of the ride-sharing data by city type, then create a multiple-line graph that shows the total weekly fares for each city type.  The results can then be used to see what the data shows for ride shares by city type and how the differences can aid in the decision-making process.  The analysis follows the [Challenge Instructions](Resources/InstructionsChalengeModule_5-PyBer-with-Matplotlib.pdf) saved in a PDF and used the [Starter Code in PDF file](Resources/StarterCodePDFChalengeModule_5-PyBer-with-Matplotlib.pdf) saved in PDF for reference.  The DataFrame used in the analysis combined data from [city_data.csv](Resources/city_data.csv) and [ride_data.csv](Resources/ride_data.csv).  When an example of the results was shown in either the Challenge Instructions or Starter Code the code used in this analysis was written to mirror the results given.  A DataFrame called pyber_data_df was created merging the csv files above.  Below is a png of DataFrame.  Though the image itself only contains one piece of useful data (2375 rows of data) the DataFrame itself contains useful information used in this analysis.
 
-![](Analysis/pyber_data_df.png)
+![img](Analysis/pyber_data_df.png)
 
 ## Analysis
 
@@ -20,7 +20,7 @@ The figure below shows a summary of the Total Rides, Drivers, Fares, Average Far
 
 The Graph below shows the Fare by City Type over Time.  Though the rides by City Type do not correlate exactly to each other there are not extreme peaks and valleys that occur on one city type and not the others.  The variations in the correlation between the number of rides given during a period of time is not able to be explained but the lack of a great variance also excludes the need to research the differences at this moment in time.  Generally speaking, differences in total fares appear to be fairly consistent throughout the time period examined with the exception on an increase in the Suburban type after April that happened while Urban and Rural saw slight decreases.
 
-![](Analysis/total_fares_by_city_type_graph.png)
+![img](Analysis/total_fares_by_city_type_graph.png)
 
 ## Results
 
